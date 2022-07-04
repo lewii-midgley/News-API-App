@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>World News</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- Work Sans -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+     <!-- font awesome css tag -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/world.png">
+
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+
+    <nav class="navBar">
+        <a href="index.html"><img class="navBar--img" src="./img/worldNews.png" alt="World News"></a>
+        <div class="search-container">
+            <input class="input-search" type="text" name="search" value="" id="searchWord" placeholder = "Search...">
+            <div id="searchFilter"><i class="fas fa-search search-icon"></i></div>
+        </div>
+    </nav>
+
+        <!-- Nav Bar Finished -->
+
+
+
+        <!-- World News By Country Section -->
+
+        <section class="countrySelection">
+            <h3 id="world" class="countrySelection--h3">World</h3>
+            <h3 id="europe" class="countrySelection--h3">Europe</h3>
+            <h3 id="asia" class="countrySelection--h3">Asia</h3>
+            <h3 id="usa" class="countrySelection--h3">USA</h3>
+            <h3 id="aus" class="countrySelection--h3">Australia</h3>
+        </section>
+
+        <!-- World News By Country Section Finished -->
+
+
+
+
+        <!-- News Section -->
+
+        <section class="newsSection">
+            <div id="newsContainer" class="newsContainer">
+            </div>
+        </section>
+
+        <!-- News Section Finished -->
+
+
+
+
+        <!-- Footer Begins -->
+
+        <footer class="footer">
+            <a class="footer--h4" href="about.html"><h4 class="footer--h4">About</h4></a>
+            <h4 class="footer--h4Text">© 2022 World News Network. A Lewis Media Company. All Rights Reserved.</h4>
+        </footer>
+
+        <!-- Footer Finished -->
+
+
+
+
+
+        <!-- Bootstrap Modal Begins -->
+
+        <!-- start of modal -->
+
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+
+
+                <div class="modal-header">
+
+                    <img class="modal-img" src="./img/worldNews.png" alt="World News">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+
+                <div id="newsModalInfo" class="modal-body">
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+
+                </div>
+            </div>
+            </div>
+
+        <!-- end of modal -->
+
+        <!-- Bootstrap Modal Finished -->
+
+
+
+
+
+        <!-- JQuiry cdn -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Bootstrap script link -->
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+            <!-- font awesome script tag -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="./js/script.js"></script>
+
+</body>
+
+</html>
