@@ -8,7 +8,6 @@ let aus = document.querySelector("#aus");
 let search = document.querySelector("#searchFilter");
 let searchVariable = document.querySelector("#searchWord");
 
-let yourKey = '4897cf634735a0543b744924734eff6b';
 
 let url = "https://gnews.io/api/v4/search?q=example&token=" + yourKey;
 let urlEurope = "https://gnews.io/api/v4/top-headlines?country=gb&token=" + yourKey;
